@@ -1,0 +1,575 @@
+@font-face {
+    font-family:'paperlogy';
+    src: url(./Font/Paperlogy-7Bold.ttf);
+}
+
+@font-face {
+    font-family: 'paperlogyexter';
+    src: url(./Font/Paperlogy-8ExtraBold.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: white;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.Header {
+    background-color: rgb(1, 0, 48);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+.Header img {
+    width: 160px;
+    border-radius: 50px;
+}
+
+.Header button {
+    border: none;
+    background-color: none;
+}
+
+.Header p {
+    font-family: 'paperlogy';
+    font-size: 25px;
+}
+
+.Header2 #Header2 button {
+    background-color: rgb(1, 0, 48);
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+
+.Header2 #Header3 button {
+    background-color: rgb(1, 0, 48);
+    color: red;
+}
+
+.Header2 #Header4 button {
+    background-color: red;
+    padding:5px;
+    color: white;
+    border-radius: 20px;
+}
+
+.Header2 {
+    margin-top: 20px;
+}
+
+#Header2 , #Header3 , #Header4{
+    margin-left: 30px;
+}
+
+#Header4 {
+    margin-right: 100px;
+}
+
+#Headerimg {
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.hero #hero {
+    color: black;
+    padding-top: 300px;
+    margin-left: 150px;
+    font-family: 'paperlogy';
+    color: peru;
+    font-size: 15px;
+}
+
+.hero1 {
+    font-family: 'paperlogyexter';
+    font-size: 50px;
+}
+
+.hero1 p {
+    padding-left: 150px;
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.hero3 {
+    color: rgb(112, 83, 255);
+}
+
+.hero5 {
+    color: rgb(255, 71, 71);
+}
+
+.hero7 p {
+    font-family: 'paperlogy';
+    padding-left: 150px;
+    margin-top: 30px;
+}
+
+.hero7 a {
+    color: rgb(112, 83, 255);
+}
+
+.fieldset {
+    padding-left: 150px;
+    outline: none;
+    border-radius: 33px;
+    margin-top: 30px;
+    border: none;
+    display: inline-block;
+}
+
+.email {
+    border-radius: 33px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 220px;
+    font-family: 'paperlogy';
+    font-size: 15px;
+    box-shadow: none;
+    border: none;
+    background-color: rgb(112, 83, 255);
+    border: solid 0px rgb(112, 83, 255);
+}
+
+.email::placeholder {
+    color: white;
+}
+
+.fieldset {
+    background-color: rgb(112, 83, 255);
+    padding-left: auto;
+    padding-left: 00px;
+    margin-left: 150px;
+    padding-right: 25px;
+    border: solid 2px black;
+}
+
+.fieldset button {
+    background-color: rgb(255, 255, 255);
+    font-family: 'paperlogy';
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 33px;
+    color: rgb(255, 71, 71);
+}
+
+.HSA {
+    background-image: url(./Image/piclumen-1756423784499.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+HeroSectionAll, HeroSection {
+    display: block;
+    width: 100%;
+}
+
+.hero2 img {
+    width: 90%;
+    margin-top: 140px;
+}
+
+.Main {
+    background-image: url(./Image/back1.jpg);
+}
+
+.Main211 img {
+    width: 100px;
+    padding-left: 900px;
+    padding-top: 300px;
+}
+
+.Main212 h3 {
+    padding-top: 300px;
+    font-family: 'paperlogyexter';
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.Main p {
+    padding-left: 20px;
+    margin-top: 20px;
+    font-family: 'paperlogy';
+    font-size: 15px;
+    line-height: 2;
+}
+
+.Main221 img {
+    padding-top: 50px;
+    width: 100px;
+    padding-left: 900px;
+}
+
+.Main222 h3 {
+    padding-top: 50px;
+    font-family: 'paperlogyexter';
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.Main222 h6 {
+    padding-left: 20px;
+    margin-top: 40px;
+    font-family: 'paperlogy';
+    font-size: 15px;
+    line-height: 2;
+    padding-bottom: 150px;
+}
+
+.Analys {
+    background-color: #060708;
+    display: flex;               
+    align-items: center;         
+}
+
+.Analys1 img {
+    width: 800px;                
+    height: auto;
+    display: block;
+}
+
+.Analys2 {
+    margin-left: 50px;                               
+    color: white;
+}
+
+.Analys2 h3 {
+    font-family: 'paperlogyexter';
+    font-size: 28px;
+}
+
+.p1 {
+    color: Red;
+}
+
+.p2 {
+    color: rgb(112, 83, 255);
+}
+
+.Analys2 p {
+    padding-top: 40px;
+    font-family: 'paperlogy';
+    font-size: 14px;
+    line-height: 2;
+}
+
+.skill {
+    padding-bottom: 20px;
+}
+
+.skillp {
+    color: rgb(112, 83, 255);
+}
+
+.skill p {
+    font-family: 'paperlogyexter';
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.progress {
+    width: 100%;
+    height: 8px;
+    background: #171717;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, orange, red, deeppink);
+  border-radius: 5px;
+}
+
+.Provide {
+    background-color: #060708;
+}
+
+.Provide p {
+    font-family: 'paperlogyexter';
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.providee {
+    color: rgb(112, 83, 255);
+}
+
+.provideee{
+    color: rgb(255, 71, 71);
+}
+
+.Image {
+    background-color: #060708;
+}
+
+.image1 img {
+    width: 320px;
+    margin-left: 45px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 33px;
+    border: solid 3px red;
+}
+
+.image2 img {
+    width: 320px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 33px;
+    border: solid 3px red;
+}
+
+.image3 img {
+    width: 320px;
+    margin-right: 45px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 33px;
+    border: solid 3px red;
+}
+
+.image1 img:hover , .image2 img:hover , .image3 img:hover {
+        border: solid 3px rgb(112, 83, 255);
+}
+
+.before {
+    background-color: #060708;
+}
+
+.before1 p {
+    font-family: 'paperlogyexter';
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 100px;
+    line-height: 1.5;
+    padding-top: 100px;
+}
+
+.before01 {
+    color: rgb(112, 83, 255);
+}
+
+.before02 {
+        color: rgb(255, 71, 71);
+}
+
+.before1 img {
+    width: 600px;
+    border-radius: 33px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: solid 3px red;
+}
+
+.before1 h3 {
+    margin-left: 100px;
+}
+
+.before222 p {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 120px;
+    font-family: 'paperlogy';
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.before111 h3 {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 120px;
+    font-family: 'paperlogy';
+    font-size: 35px;
+}
+
+.tip {
+    position: relative;
+}
+
+.before333 h6 {
+    margin-left: 120px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'paperlogyexter';
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(112, 83, 255);
+    padding-left: 35px;
+    margin-right: 430px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 33px;
+    border: solid 3px white;
+}
+
+.before2 img {
+    width: 50px;
+    margin-right: 
+}
+
+.before3 img {
+    width: 250px;
+}
+
+.before31 img {
+    margin-top: 20px;
+    border-radius: 33px;
+    border: solid 3px rgb(112, 83, 255);
+}
+
+.before32 img {
+    margin-top: 75px;
+    border-radius: 33px;
+}
+
+.before2 {
+    margin-left: 75px;
+    margin-top: 375px;
+    font-family: 'paperlogy';
+    margin-right: 75px;
+    font-size: 10px;
+}
+
+.date1 p , .date2 p , .date3 p {
+    margin-top: 22px;
+}
+
+.date2 , .date3 {
+    margin-top: 150px;
+}
+
+.spandate p , .spandate1 p , .spandate2 p {
+    margin-top: 20px;
+}
+
+.spandate02 p , .spandate01 p , .spandate0 p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.end {
+    background-color: #060708;
+}
+
+.end1 {
+    background-image: url(./Image/contact-bg.png);
+}
+
+.end2 {
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.end2 h1 {
+        font-family: 'paperlogyexter';
+        font-weight: bold;
+        font-size: 30px;
+}
+
+.end2 h6 , .end2 h4 , .end2 h3 {
+    font-family: 'paperlogy';
+}
+
+.end2 h6 {
+    font-size: 13px;
+    padding-top: 25px;
+    line-height: 2;
+}
+
+.end01 img {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.end01 {
+    padding-top: 25px;
+}
+
+.end01 h4 {
+    padding-top: 15px;
+}
+
+.end01 h3 {
+    padding-top: 14px;
+}
+
+.end3 .Name , .end3 .Surname , .end3 .Email , .end3 .Text {
+    border-radius: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 200px;
+    margin-top: 20px;
+    border: solid 3px black;
+}
+
+.end3 input::placeholder {
+    font-size: 20px;
+    font-family: 'paperlogy';
+}
+
+.end3 {
+    margin-top: 80px;
+    margin-left: 200px;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid black 3px;
+    border-radius: 33px;
+    margin-bottom: 100px;
+}
+
+.end3 a p {
+    margin-top: 20px;
+    padding-left: 125px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    background-color: rgb(112, 83, 255);
+    color: white;
+    border-radius: 33px;
+    border: solid 3px black;
+    font-family: 'paperlogy';
+    font-size: 15px;
+}
+
+.Project {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Project h1 {
+    font-family: 'paperlogyexter';
+}
+
+.Project p {
+    font-family: 'paperlogy';
+    padding-top: 30px;
+    color: rgb(112, 83, 255);
+    padding-bottom: 30px;
+}

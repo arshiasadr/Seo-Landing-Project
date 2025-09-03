@@ -1,0 +1,88 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainhero {
+    display: flex;
+}
+
+.Main21 {
+    display: flex;
+}
+
+.Main22 {
+    display: flex;
+}
+
+.Analys {
+    display: flex;
+    justify-content: none;
+}
+
+.Skill p {
+  display: flex;
+  justify-content: space-between;  /* متن چپ - درصد راست */
+}
+
+
+skill {
+  display: block;
+}
+
+.Image {
+    display: flex;
+    justify-content: space-between;
+}
+
+BeforEnd {
+    display: block;
+}
+
+date {
+    display: block;
+}
+
+.before {
+    display: flex;
+}
+
+.date {
+    display: flex;
+}
+
+.date1 {
+    display: flex;
+}
+
+.date2 {
+    display: flex;
+}
+
+.date3 {
+    display: flex;
+}
+
+.before31, .before32 {
+  display: block;  
+}
+
+end {
+    display: block;
+}
+
+.end01 {
+    display: flex;
+}
+
+.end3 input {
+    display: block;
+}
+
+.end1 {
+    display: flex;
+}
+
+Project {
+    display: block;
+}
